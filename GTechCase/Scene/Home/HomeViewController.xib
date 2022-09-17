@@ -10,6 +10,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="GTechCase" customModuleProvider="target">
             <connections>
+                <outlet property="activityIndicator" destination="vJm-n9-lEF" id="051-Ih-3xq"/>
+                <outlet property="ebooksButton" destination="2eJ-tx-o4z" id="0It-uq-bWN"/>
+                <outlet property="moviesButton" destination="hsT-NU-Z0r" id="oyY-YR-jjg"/>
+                <outlet property="musicsButton" destination="ghC-dh-S50" id="G5g-K7-28g"/>
+                <outlet property="podcastsButton" destination="4RQ-ft-KGj" id="X5w-ql-bx0"/>
+                <outlet property="searchField" destination="ceA-TY-VqY" id="T9K-Uc-k8C"/>
+                <outlet property="tableView" destination="NTa-xm-BUO" id="ps0-KR-6dW"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,18 +25,105 @@
             <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HomeControllerView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dp-Hp-7TV">
-                    <rect key="frame" x="116" y="411.66666666666669" width="158" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search.." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ceA-TY-VqY">
+                    <rect key="frame" x="10" y="57" width="370" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="h8D-Yb-BdF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                </textField>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="i7V-op-6Il">
+                    <rect key="frame" x="10" y="102" width="370" height="35"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsT-NU-Z0r" customClass="FilterButton" customModule="GTechCase" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="35"/>
+                            <color key="backgroundColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Movie">
+                                <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                            </buttonConfiguration>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghC-dh-S50" customClass="FilterButton" customModule="GTechCase" customModuleProvider="target">
+                            <rect key="frame" x="93.666666666666686" y="0.0" width="89" height="35"/>
+                            <color key="backgroundColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Music">
+                                <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                            </buttonConfiguration>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eJ-tx-o4z" customClass="FilterButton" customModule="GTechCase" customModuleProvider="target">
+                            <rect key="frame" x="187.66666666666666" y="0.0" width="88.666666666666657" height="35"/>
+                            <color key="backgroundColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Ebook">
+                                <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                            </buttonConfiguration>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4RQ-ft-KGj" customClass="FilterButton" customModule="GTechCase" customModuleProvider="target">
+                            <rect key="frame" x="281.33333333333331" y="0.0" width="88.666666666666686" height="35"/>
+                            <color key="backgroundColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Podcast">
+                                <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                            </buttonConfiguration>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="zWe-Dk-zfD"/>
+                    </constraints>
+                </stackView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="NTa-xm-BUO">
+                    <rect key="frame" x="10" y="147" width="370" height="653"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="CzX-w8-71d"/>
+                        <outlet property="delegate" destination="-1" id="NUq-q4-ZIa"/>
+                    </connections>
+                </tableView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="vJm-n9-lEF">
+                    <rect key="frame" x="185" y="463.66666666666669" width="20" height="20"/>
+                </activityIndicatorView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="7dp-Hp-7TV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cD9-Qh-3IO"/>
-                <constraint firstItem="7dp-Hp-7TV" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="kje-Pk-Ios"/>
+                <constraint firstItem="NTa-xm-BUO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="4LR-TH-8bH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="i7V-op-6Il" secondAttribute="trailing" constant="10" id="Akr-0m-QO0"/>
+                <constraint firstItem="i7V-op-6Il" firstAttribute="top" secondItem="ceA-TY-VqY" secondAttribute="bottom" constant="10" id="DMe-OK-5Oz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NTa-xm-BUO" secondAttribute="trailing" constant="10" id="J2c-qO-R2X"/>
+                <constraint firstItem="vJm-n9-lEF" firstAttribute="centerX" secondItem="NTa-xm-BUO" secondAttribute="centerX" id="JP5-Ya-2cc"/>
+                <constraint firstItem="ceA-TY-VqY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="L1K-l3-Edv"/>
+                <constraint firstItem="ceA-TY-VqY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="Ndd-W5-YRz"/>
+                <constraint firstItem="i7V-op-6Il" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="UbD-ae-3c0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="NTa-xm-BUO" secondAttribute="bottom" constant="10" id="jYM-Ik-Sxf"/>
+                <constraint firstItem="vJm-n9-lEF" firstAttribute="centerY" secondItem="NTa-xm-BUO" secondAttribute="centerY" id="oV6-el-CV5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ceA-TY-VqY" secondAttribute="trailing" constant="10" id="ttE-V3-GdT"/>
+                <constraint firstItem="NTa-xm-BUO" firstAttribute="top" secondItem="i7V-op-6Il" secondAttribute="bottom" constant="10" id="wTQ-iy-iF0"/>
             </constraints>
             <point key="canvasLocation" x="132" y="-11"/>
         </view>

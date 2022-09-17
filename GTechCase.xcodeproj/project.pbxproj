@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA1DB4D628D542C8005F03C9 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1DB4D528D542C8005F03C9 /* UIButton+Extension.swift */; };
+		EA1DB4DB28D54429005F03C9 /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1DB4DA28D54429005F03C9 /* FilterButton.swift */; };
+		EA33A64028D29F9200186581 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A63F28D29F9200186581 /* AppContainer.swift */; };
+		EA33A64228D29FAA00186581 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A64128D29FAA00186581 /* AppRouter.swift */; };
+		EA33A64828D2A25300186581 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A64728D2A25300186581 /* Service.swift */; };
+		EA33A64A28D2A2A100186581 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A64928D2A2A100186581 /* Router.swift */; };
+		EA33A64D28D2A2BE00186581 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EA33A64C28D2A2BE00186581 /* Alamofire */; };
+		EA33A64F28D2A2CE00186581 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A64E28D2A2CE00186581 /* Endpoint.swift */; };
+		EA33A65128D2A79600186581 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A65028D2A79600186581 /* HomeViewModel.swift */; };
+		EA33A65328D2A7A200186581 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A65228D2A7A200186581 /* HomeBuilder.swift */; };
+		EA33A65728D2ABDE00186581 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A65528D2ABDE00186581 /* HomeTableViewCell.swift */; };
+		EA33A65828D2ABDE00186581 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA33A65628D2ABDE00186581 /* HomeTableViewCell.xib */; };
+		EA33A65A28D2B32D00186581 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A65928D2B32D00186581 /* SearchResult.swift */; };
+		EA33A65E28D2BBAD00186581 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A65D28D2BBAD00186581 /* UIViewController+Extension.swift */; };
+		EA33A66128D2C2B900186581 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EA33A66028D2C2B900186581 /* Kingfisher */; };
+		EA33A66328D329DA00186581 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A66228D329DA00186581 /* String+Extension.swift */; };
+		EA33A66828D344AB00186581 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A66728D344AB00186581 /* DetailViewModel.swift */; };
+		EA33A66B28D34FC900186581 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A66928D34FC900186581 /* DetailViewController.swift */; };
+		EA33A66C28D34FC900186581 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA33A66A28D34FC900186581 /* DetailViewController.xib */; };
+		EA33A66E28D3527600186581 /* DetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33A66D28D3527600186581 /* DetailBuilder.swift */; };
 		EA6A7B3A28D224D300D5DA2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A7B3928D224D300D5DA2B /* AppDelegate.swift */; };
 		EA6A7B3C28D224D300D5DA2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A7B3B28D224D300D5DA2B /* SceneDelegate.swift */; };
 		EA6A7B4328D224D400D5DA2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6A7B4228D224D400D5DA2B /* Assets.xcassets */; };
@@ -36,6 +56,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA1DB4D528D542C8005F03C9 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		EA1DB4DA28D54429005F03C9 /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
+		EA33A63F28D29F9200186581 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		EA33A64128D29FAA00186581 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		EA33A64728D2A25300186581 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		EA33A64928D2A2A100186581 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		EA33A64E28D2A2CE00186581 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		EA33A65028D2A79600186581 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EA33A65228D2A7A200186581 /* HomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		EA33A65528D2ABDE00186581 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		EA33A65628D2ABDE00186581 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		EA33A65928D2B32D00186581 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		EA33A65D28D2BBAD00186581 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		EA33A66228D329DA00186581 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		EA33A66728D344AB00186581 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		EA33A66928D34FC900186581 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EA33A66A28D34FC900186581 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		EA33A66D28D3527600186581 /* DetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBuilder.swift; sourceTree = "<group>"; };
 		EA6A7B3628D224D300D5DA2B /* GTechCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTechCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6A7B3928D224D300D5DA2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA6A7B3B28D224D300D5DA2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA33A66128D2C2B900186581 /* Kingfisher in Frameworks */,
+				EA33A64D28D2A2BE00186581 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +116,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA1DB4D728D543E7005F03C9 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EA1DB4DA28D54429005F03C9 /* FilterButton.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		EA33A64428D2A15D00186581 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EA33A64628D2A24C00186581 /* Service */,
+				EA33A64528D2A15D00186581 /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EA33A64528D2A15D00186581 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA33A65928D2B32D00186581 /* SearchResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA33A64628D2A24C00186581 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EA33A64728D2A25300186581 /* Service.swift */,
+				EA33A64928D2A2A100186581 /* Router.swift */,
+				EA33A64E28D2A2CE00186581 /* Endpoint.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EA33A65428D2ABC700186581 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EA33A65528D2ABDE00186581 /* HomeTableViewCell.swift */,
+				EA33A65628D2ABDE00186581 /* HomeTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EA33A65B28D2BB9700186581 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EA1DB4D728D543E7005F03C9 /* Custom */,
+				EA33A65C28D2BB9D00186581 /* Extension */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		EA33A65C28D2BB9D00186581 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA33A65D28D2BBAD00186581 /* UIViewController+Extension.swift */,
+				EA33A66228D329DA00186581 /* String+Extension.swift */,
+				EA1DB4D528D542C8005F03C9 /* UIButton+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EA33A66628D3449E00186581 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EA33A66728D344AB00186581 /* DetailViewModel.swift */,
+				EA33A66928D34FC900186581 /* DetailViewController.swift */,
+				EA33A66A28D34FC900186581 /* DetailViewController.xib */,
+				EA33A66D28D3527600186581 /* DetailBuilder.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		EA6A7B2D28D224D300D5DA2B = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +213,12 @@
 		EA6A7B3828D224D300D5DA2B /* GTechCase */ = {
 			isa = PBXGroup;
 			children = (
-				EA6A7B7228D22EF700D5DA2B /* Resource */,
 				EA6A7B7128D22EF200D5DA2B /* Common */,
+				EA33A64428D2A15D00186581 /* Network */,
+				EA6A7B7228D22EF700D5DA2B /* Resource */,
 				EA6A7B6B28D22B2F00D5DA2B /* Scene */,
+				EA33A65B28D2BB9700186581 /* Utility */,
+				EA6A7B4728D224D400D5DA2B /* Info.plist */,
 				EA6A7B4428D224D400D5DA2B /* LaunchScreen.storyboard */,
 			);
 			path = GTechCase;
@@ -127,6 +244,7 @@
 		EA6A7B6B28D22B2F00D5DA2B /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				EA33A66628D3449E00186581 /* Detail */,
 				EA6A7B6C28D22B3900D5DA2B /* Home */,
 			);
 			path = Scene;
@@ -135,8 +253,11 @@
 		EA6A7B6C28D22B3900D5DA2B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				EA33A65428D2ABC700186581 /* Cell */,
 				EA6A7B6D28D22B5000D5DA2B /* HomeViewController.swift */,
 				EA6A7B6E28D22B5000D5DA2B /* HomeViewController.xib */,
+				EA33A65028D2A79600186581 /* HomeViewModel.swift */,
+				EA33A65228D2A7A200186581 /* HomeBuilder.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -146,7 +267,8 @@
 			children = (
 				EA6A7B3928D224D300D5DA2B /* AppDelegate.swift */,
 				EA6A7B3B28D224D300D5DA2B /* SceneDelegate.swift */,
-				EA6A7B4728D224D400D5DA2B /* Info.plist */,
+				EA33A63F28D29F9200186581 /* AppContainer.swift */,
+				EA33A64128D29FAA00186581 /* AppRouter.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -175,6 +297,10 @@
 			dependencies = (
 			);
 			name = GTechCase;
+			packageProductDependencies = (
+				EA33A64C28D2A2BE00186581 /* Alamofire */,
+				EA33A66028D2C2B900186581 /* Kingfisher */,
+			);
 			productName = GTechCase;
 			productReference = EA6A7B3628D224D300D5DA2B /* GTechCase.app */;
 			productType = "com.apple.product-type.application";
@@ -247,6 +373,10 @@
 				Base,
 			);
 			mainGroup = EA6A7B2D28D224D300D5DA2B;
+			packageReferences = (
+				EA33A64B28D2A2BE00186581 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				EA33A65F28D2C2B900186581 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = EA6A7B3728D224D300D5DA2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,6 +395,8 @@
 			files = (
 				EA6A7B4628D224D400D5DA2B /* LaunchScreen.storyboard in Resources */,
 				EA6A7B4328D224D400D5DA2B /* Assets.xcassets in Resources */,
+				EA33A66C28D34FC900186581 /* DetailViewController.xib in Resources */,
+				EA33A65828D2ABDE00186581 /* HomeTableViewCell.xib in Resources */,
 				EA6A7B7028D22B5000D5DA2B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,8 +423,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA6A7B3A28D224D300D5DA2B /* AppDelegate.swift in Sources */,
+				EA33A65E28D2BBAD00186581 /* UIViewController+Extension.swift in Sources */,
+				EA33A65128D2A79600186581 /* HomeViewModel.swift in Sources */,
+				EA33A65328D2A7A200186581 /* HomeBuilder.swift in Sources */,
+				EA33A64028D29F9200186581 /* AppContainer.swift in Sources */,
+				EA1DB4D628D542C8005F03C9 /* UIButton+Extension.swift in Sources */,
 				EA6A7B3C28D224D300D5DA2B /* SceneDelegate.swift in Sources */,
+				EA1DB4DB28D54429005F03C9 /* FilterButton.swift in Sources */,
+				EA33A65728D2ABDE00186581 /* HomeTableViewCell.swift in Sources */,
+				EA33A66B28D34FC900186581 /* DetailViewController.swift in Sources */,
+				EA33A64A28D2A2A100186581 /* Router.swift in Sources */,
+				EA33A66328D329DA00186581 /* String+Extension.swift in Sources */,
+				EA33A64228D29FAA00186581 /* AppRouter.swift in Sources */,
+				EA33A64F28D2A2CE00186581 /* Endpoint.swift in Sources */,
 				EA6A7B6F28D22B5000D5DA2B /* HomeViewController.swift in Sources */,
+				EA33A65A28D2B32D00186581 /* SearchResult.swift in Sources */,
+				EA33A66E28D3527600186581 /* DetailBuilder.swift in Sources */,
+				EA33A66828D344AB00186581 /* DetailViewModel.swift in Sources */,
+				EA33A64828D2A25300186581 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,8 +613,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GTechCase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,8 +641,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GTechCase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -626,6 +774,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA33A64B28D2A2BE00186581 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		EA33A65F28D2C2B900186581 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA33A64C28D2A2BE00186581 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA33A64B28D2A2BE00186581 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		EA33A66028D2C2B900186581 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA33A65F28D2C2B900186581 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EA6A7B2E28D224D300D5DA2B /* Project object */;
 }
